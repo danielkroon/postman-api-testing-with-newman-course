@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "d33d6db3-cd3d-4a65-9d8b-40c91b8c3081",
+		"name": "udemy - assignment 1 - nytimes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "'My custom agent' ?",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.nytimes.com/svc/books/v3/lists.json?api-key=FFWAhAJlYuGSfMqM5kl9MpcGkOlCeAM1&list=hardcover-nonfiction&rank=1&published-date=2019-10-20&rank-last-week=0",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nytimes",
+						"com"
+					],
+					"path": [
+						"svc",
+						"books",
+						"v3",
+						"lists.json"
+					],
+					"query": [
+						{
+							"key": "api-key",
+							"value": "FFWAhAJlYuGSfMqM5kl9MpcGkOlCeAM1"
+						},
+						{
+							"key": "list",
+							"value": "hardcover-nonfiction"
+						},
+						{
+							"key": "rank",
+							"value": "1"
+						},
+						{
+							"key": "published-date",
+							"value": "2019-10-20"
+						},
+						{
+							"key": "rank-last-week",
+							"value": "0"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
